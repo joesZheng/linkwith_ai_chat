@@ -415,7 +415,7 @@ export function Settings() {
             </Select>
           </ListItem>
 
-          <ListItem title={Locale.Settings.Lang.Name}>
+          {/* <ListItem title={Locale.Settings.Lang.Name}>
             <Select
               value={getLang()}
               onChange={(e) => {
@@ -428,7 +428,7 @@ export function Settings() {
                 </option>
               ))}
             </Select>
-          </ListItem>
+          </ListItem> */}
 
           <ListItem
             title={Locale.Settings.FontSize.Title}
